@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: voteapp
-        image: whujin11e/public:azure_voting_app
+        image: davidmosad/vote-app:TAG
         ports:
         - containerPort: 80
         resources:
